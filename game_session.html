@@ -17,6 +17,7 @@
     }
     h2{font-family:'Poppins',sans-serif;font-size:1.5rem;margin-top:1.5rem}
 
+
     /* board */
     .container{display:grid;grid-template-columns:repeat(9,90px);grid-template-rows:repeat(9,90px);gap:4px;margin-top:2rem}
     .grid-item{
@@ -35,13 +36,13 @@
       text-shadow:-1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;text-align:center;
     }
 
+
     /* player list */
     .player-list{
       background:rgba(0,0,0,.3);border-radius:12px;padding:1rem 2rem;
       box-shadow:0 4px 12px rgba(0,0,0,.4);max-width:400px;width:100%;margin-bottom:1.5rem;
       font-family:'Poppins',sans-serif;
     }
-
 
     .btn{
       background-color:#F56600;color:black;border:none;padding:.8rem 1.5rem;font-weight:bold;font-size:1.1rem;border-radius:8px;cursor:pointer;
@@ -160,6 +161,10 @@
     const statusEl = document.getElementById('status');
     const chipsEl = document.getElementById('chips');
     const rollBtn = document.getElementById('rollBtn');
+
+    const answerBtn = document.getElementById('answerBtn');
+    const ansInput = document.getElementById('answerInput');
+    const destRow = document.getElementById('destRow');
     const moveBtn = document.getElementById('moveBtn');
     const answerBtn = document.getElementById('answerBtn');
     const ansInput = document.getElementById('answerInput');
